@@ -1,0 +1,98 @@
+<!Doctype Html>  
+<html>     
+<head>      
+<title></title> 
+<link rel="stylesheet"href="Order1.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>    
+</head> 
+<body>
+<script>
+function validate() {
+            var cname = document.reg_form.cname;
+            var phone = document.reg_form.phone;
+			var address = document.reg_form.address;
+			
+			if (cname.value.length <= 0) {
+                alert("Name is required");
+                cname.focus();
+                return false;
+            }
+            if (phone.value.length <= 0) {
+                alert("Mobile Number is required");
+                phone.focus();
+                return false;
+            }
+			if (address.value.length <= 0) {
+                alert("Address is required");
+                address.focus();
+                return false;
+            }
+			return false;
+			
+			}
+			
+</script>
+<div class="back">
+ <input type="button"value="Go Back !"onclick="history.back()">
+ </div>
+<div class="sd">
+</div>    
+<form method="" action="" name="reg_form" onsubmit="return validate()"> 
+    <div class="gg">
+
+ <div class="create"> 
+<legend>Order Now!</legend>
+</div>
+<label>* CustomerName: </label>           
+<input type="text" name="cname" size="25"placeholder="Enter Name... "> <br> <br>   
+<label>     
+Select Food:    
+</label>     
+<select name="food">     
+<option value="select food">Select Food</option>    
+<option value="Mutton Curry">Mutton Curry</option>    
+<option value="Chicken Chettinad">Chicken Chettinad</option>    
+<option value="Haleem">Haleem</option>    
+<option value="Sarson Machhi">Sarson Machhi</option>    
+<option value="Butter Chicken">Butter Chicken</option>    
+<option value="Egg Curry">Egg Curry</option>    
+<option value="Mughal Mutton Curry">Mughal Mutton Curry</option> 
+<option value="Paya Soup">Paya Soup</option> 
+<option value="Tunde Kebab">Tunde Kebab</option> 
+<option value="Bheja Masala">Bheja Masala</option> 
+<option value="Rogan Josh">Rogan Josh</option> 
+<option value="Chicken Tikka">Chicken Tikka</option> 
+<option value="Kankada Jhola">Kankada Jhola</option> 
+<option value="Poora Haah">Poora Haah</option>
+<option value="Masala Channa">Masala Channa</option> 
+<option value="Paneer Makhani Biryani">Paneer Makhani Biryani</option> 
+<option value="Aamras Ki Kadhi"> Aamras Ki Kadhi </option> 
+<option value="Mushroom Kofta in Tomato Gravy">Mushroom Kofta in Tomato Gravy</option> 
+<option value="Stuffed Baby Eggplant">Stuffed Baby Eggplant</option>  
+</select> 
+<br> <br>
+Location :
+<input type="text"class="zzzz" placeholder="My Location -->">
+<a href="https://www.google.com/maps/@30.777076,76.5817948,15z"><i class='bx bx-current-location'></i></a>
+<br><br>          
+<label>     
+* Phone No. :    
+</label>      
+<input type="text" name="phone" size="15"placeholder="Enter MobileNo... "> <br>
+<br>   
+* Address :         
+<input type="text" size="70"name="address" > 
+
+<div class="submit"> 
+<input type="submit" class="ad" value="Order Now!"> 
+</div>
+<div class="symbol">
+<a href="https://www.linkedin.com/in/abul-saad-5b82a6257?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BMO4zO2f1S6qrzr7PgLRXxQ%3D%3D"><i class='bx bxl-linkedin'></i></a>
+<a href="https://www.youtube.com/channel/UCFNRL1IpXaJyzYRp9pFPq8A"><i class='bx bxl-youtube'></i></a>
+<a href="https://www.facebook.com/abulsaad.abulsaad.56"><i class='bx bxl-facebook-square'></i></a>
+<a href="https://instagram.com/official_saad6"><i class='bx bxl-instagram'></i></a>
+</div>
+</div>
+</form>   
+</body>   
+</html>  

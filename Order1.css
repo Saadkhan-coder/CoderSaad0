@@ -1,0 +1,80 @@
+body{
+	width:100%;
+	
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("saad.jpg");
+	height:60vh;
+	background-size:cover;
+
+	
+	
+}
+.back input {
+	width:91px;
+	height:28px;
+	position:absolute;
+	top:20px;
+	left:50px;
+	border-radius:10px;
+	background-color:aqua;
+
+
+
+	
+}
+.create{
+	color:#f7ff04;
+	position:absolute;
+	top:2%;
+	left:35%;
+	font-family:Bodoni Bd BT;
+	font-size:40px;
+}
+.gg{
+    color:#fff;
+	list-style-type:none;
+	position:absolute;
+	font-family:Baskerville Old Face;
+	font-size:21px;
+	top:0%;
+	left:28%;
+	background:transparent;
+	backdrop-filter:blur(5pt);
+	margin:90px 50px;
+	padding:90px 30px;
+
+}
+.submit{
+	position:absolute;
+	top:87%;
+	left:37%;
+	
+}
+.ad{
+	border-radius:22px;
+	width:108px;
+	height:42px;
+	background-color:#05b905;
+	color:#fff;
+	border-color:#ff009b;
+	font-size:17px;
+}
+.symbol{
+	position:absolute;
+	top:2%;
+	left:79%;
+	background:#63ece5;
+	border-radius:3px;
+}
+.bx-current-location{
+	position:absolute;
+	top:193px;
+	left:261px;
+	color:green;
+	font-size:22px;
+}
+.zzzz{
+	position:absolute;
+	top:193px;
+	right:318px;
+	
+}

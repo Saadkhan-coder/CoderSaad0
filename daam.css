@@ -1,0 +1,63 @@
+body{
+	width:100%;
+	height:100vh;
+	background-image:url("bb.jpg");
+	height:60vh;
+	background-size:cover;
+}
+.back input {
+	width:91px;
+	height:28px;
+	position:absolute;
+	top:20px;
+	left:50px;
+    border-radius:10px;
+	background-color:aqua;
+}
+.create{
+	color:#00ff70;
+	position:absolute;
+	top:2%;
+	left:35%;
+	font-family:Bodoni Bd BT;
+	font-size:35px;
+}
+.names{
+	position:absolute;
+	top:92px;
+	left:65px;
+}
+.gg{
+    color:#fff;
+	list-style-type:none;
+	position:absolute;
+	font-family:Arial Rounded MT Bold;
+	font-size:20px;
+	top:0%;
+	left:29%;
+	background:transparent;
+	backdrop-filter:blur(5pt);
+	margin:90px 50px;
+	padding:279px 320px;
+}
+.sd{
+	width:100%;
+	background-image:url("bb.jpg");
+}
+.ss{
+	width:127px;
+	height:44px;
+	position:absolute;
+	top:125%;
+	left:36%;
+    border-radius:16px;
+	background-color:#00dbff;
+	color:#fff;
+	font-size:20px;
+}
+.symbol{
+	position:absolute;
+	top:138%;
+	right:0vh;
+	font-size:30px;
+}

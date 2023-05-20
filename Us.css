@@ -1,0 +1,62 @@
+.img{
+	width:60%;
+	height:270vh;
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("pp.jpeg");
+	background-size:cover;
+	background-position:center;
+	backdrop-filter:blur(5px);
+	margin:10px 10px;
+	padding:10px 40vh;
+	position:center;
+    
+}
+
+
+
+.About{
+    color:rgb(49, 245, 15);
+    font-size: 32px;
+    position:absolute;
+	top:1vh;
+	left:367px;
+
+}
+.Us{
+	margin:70px 20px;
+	padding:100px 30px;
+	font-size:26px;
+    color:#fff;
+	font-family:Baskerville Old Face;
+}
+.food{
+	width:35%;
+	height:42vh;
+	background-image:url("food.jpg");
+	position:absolute;
+	left:256px;
+}
+.dd{
+	width:28%;
+	height:42vh;
+	background-size:500px;
+	background-image:url("Uc.jpg");
+	position:absolute;
+	right:300px;
+}
+.veg{
+	width:45%;
+	height:52px;
+	background-image:url("pp.jpg")
+}
+
+.back input {
+	width:91px;
+	height:28px;
+	position:absolute;
+	top:20px;
+	left:30px;
+	border-radius:10px;
+	background-color:aqua;
+
+	
+}

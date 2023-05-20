@@ -1,0 +1,175 @@
+*{
+  margin:0;
+  padding:0;
+
+}
+ .img{
+width:100%;
+	height:100vh;
+	background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7)),url("hj.jpg");
+	background-size:cover;
+	background-position:center;
+ }
+ .img h2{
+	color:#fff;
+	font-size:40px;
+	position:absolute;
+	top:65px;
+	left:694px;
+ }
+.img p{
+	color:#2ce2ff;
+	font-size:21px;
+	position:absolute;
+	top:120px;
+	left:418px;
+}
+ .img i{
+	 position:absolute;
+	 top:228px;
+	 left:167px;
+	 font-size:80px;
+	 color:#fff;
+ }
+ .img h6{
+	font-size:33px;
+	position:absolute;
+	top:208px;
+	left:247px;
+    color:#00ff28;	
+ }
+ .img p1{
+	font-size:23px;
+    color:#fff;
+    position:absolute;
+	top:248px;
+	left:250px;	
+ }
+  .img p2{
+	font-size:23px;
+    color:#fff;
+    position:absolute;
+	top:274px;
+	left:251px;	
+ }
+ .mob h6{
+	font-size:33px;
+	position:absolute;
+	top:361px;
+	left:247px;
+    color:#00ff28;	
+ }
+.mob i{
+	position:absolute;
+	 top:362px;
+	 left:167px;
+	 font-size:80px;
+	 color:#fff;
+}
+ .mob p{
+	 	font-size:23px;
+    color:#fff;
+    position:absolute;
+	top:401px;
+	left:262px;	
+ }
+ .mail h6{
+	font-size:33px;
+	position:absolute;
+	top:500px;
+	left:247px;
+    color:#00ff28;
+ }
+  .mail i{
+	 position:absolute;
+	 top:498px;
+	 left:167px;
+	 font-size:70px;
+	 color:#fff;
+ }
+  .mail p{
+	 	font-size:23px;
+    color:#fff;
+    position:absolute;
+	top:535px;
+	left:250px;	
+ }
+ .back input {
+	width:91px;
+	height:28px;
+	position:absolute;
+	top:20px;
+	left:30px;
+	border-radius:10px;
+	background-color:aqua;
+
+	
+}
+.symbol{
+	position:absolute;
+	top:643px;
+	left:689px;
+	font-size:37px;
+	background-color:#00ff93;
+	border-radius:4px;
+}
+.contactform{
+	width:303px;
+	padding:43px;
+	background:#fff;
+	position:absolute;
+	top:229px;
+	right:216px;
+}
+.contactform h2{
+	font-size:27px;
+	color:green;
+	font-weight:500px;
+	position:absolute;
+	top:6px;
+	left:121px;
+}
+.contactform inputBox{
+	position:relative;
+	width:100%;
+	margin-top:10px;
+}
+.contactform .inputBox input,
+.contactform .inputBox textarea
+{
+	width:100%;
+	padding:7px 0px;
+	font-size:16px;
+	margin:20px 0px;
+	border:none;
+	border-bottom:2px solid #333;
+	outline:none;
+}
+.contactform .inputBox span{
+	position:absolute;
+	left:0;
+	padding:5px 42px;
+	font-size:19px;
+	margin:3px 0px;
+	pointer-events:none;
+	transition:0.5s;
+	color:#666;
+}
+.contactform .inputBox input:focus ~ span,
+.contactform .inputBox input:valid ~ span,
+	.contactform .inputBox textarea:focus ~ span,
+	.contactform .inputBox textarea:valid ~ span{
+	color:green;
+	font-size:10px;
+	transform:translate(-20px);
+}
+.contactform .inputBox input[type="submit"]{
+	width:100%;
+	background:#00bcd4;
+	color:#fff;
+	border:none;
+	cursor:pointer;
+	padding:10px;
+	font-size:18px;
+	
+}
